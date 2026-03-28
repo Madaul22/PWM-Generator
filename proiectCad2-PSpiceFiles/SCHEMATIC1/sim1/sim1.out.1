@@ -1,0 +1,57 @@
+
+**** 05/14/25 19:12:07 **** PSpice 24.1.0 (23 January 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\peleg\Desktop\proiectcad2\proiectcad2-pspicefiles\schematic1\sim1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\orcadx\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 588u  0 0.5u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECTCAD2
+R_R1         N00472 N00142  10k TC=0,0 
+R_R2         N00142 N00159  22k TC=0,0 
+D_D1         N00323 N00159 D1N4148 
+D_D2         N00159 N00319 D1N4148 
+R_R3         N00323 N00327  100 TC=0,0 
+R_R4         N00319 N00327  25k TC=0,0 
+C_C1         N00327 N00472  1n  TC=0,0 
+X_R5         N09198 N00645 N09194 POT PARAMS: SET=0 VALUE=10k
+V_V1         15 0 15V
+V_V2         -15 0 -15V
+R_R9         10 N09194  5k TC=0,0 
+R_R10         N09198 -10  10k TC=0,0 
+X_U10         N00142 0 15 -15 N00159 TL081/301/TI
+X_U11         0 N00327 15 -15 N00472 TL081/301/TI
+X_U12         N00472 N00645 15 -15 N06722 TL081/301/TI
+.PARAM  amax=0.2 n=0.5 amin=0.8 a2=-0.44 a6=0.81
+
+**** RESUMING sim1.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node 10.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node -10.
+
