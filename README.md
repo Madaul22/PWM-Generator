@@ -31,9 +31,7 @@ Organizarea fișierelor pentru o navigare facilă:
 ### 🛠️ Tehnologii și Unelte utilizate:
 <p align="left">
   <img src="https://img.shields.io/badge/OrCAD_PSpice-003594?style=for-the-badge&logo=cadence&logoColor=white" alt="OrCAD" />
-  <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/>
-  </a>
+ 
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
   </a>
