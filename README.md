@@ -9,12 +9,12 @@
 ---
 
 ### 📝 Descriere Proiect
-[cite_start]Proiectul constă în realizarea unui generator PWM cu parametri controlabili, utilizând amplificatorul operațional **TL082**[cite: 25, 42]. [cite_start]Acesta a fost ales pentru Slew Rate-ul ridicat de $8V/\mu s$, asigurând comutații rapide[cite: 26].
+Proiectul constă în realizarea unui generator PWM cu parametri controlabili, utilizând amplificatorul operațional **TL082**.Acesta a fost ales pentru Slew Rate-ul ridicat de $8V/\mu s$, asigurând comutații rapide.
 
-- [cite_start]🎯 **Frecvență:** $17kHz$ [cite: 21]
-- [cite_start]🔄 **Factor de umplere:** Variabil între $20\%$ și $60\%$ [cite: 19]
-- [cite_start]📈 **Amplitudine:** Reglabilă între $2V$ și $8V$ [cite: 20]
-- [cite_start]⚡ **Alimentare:** $\pm10V$ [cite: 25]
+- 🎯 **Frecvență:** $17kHz$ 
+- 🔄 **Factor de umplere:** Variabil între $20\%$ și $60\%$ 
+- 📈 **Amplitudine:** Reglabilă între $2V$ și $8V$ 
+- ⚡ **Alimentare:** $\pm10V$ 
 
 ---
 
@@ -42,9 +42,9 @@ Organizarea fișierelor pentru o navigare facilă:
 
 ### 📊 Analize incluse
 În cadrul proiectului au fost rulate următoarele simulări pentru validare:
-- [cite_start]**Analiză în Timp (Transient)** pentru vizualizarea semnalelor[cite: 286].
-- [cite_start]**Analiză Parametrică** pentru verificarea domeniilor de reglaj[cite: 331].
-- [cite_start]**Analiză Monte-Carlo** pentru testarea stabilității cu toleranțe de $5\%$[cite: 500, 504].
+- **Analiză în Timp (Transient)** pentru vizualizarea semnalelor.
+- **Analiză Parametrică** pentru verificarea domeniilor de reglaj.
+- **Analiză Monte-Carlo** pentru testarea stabilității cu toleranțe de $5\%$.
 
 ---
 
@@ -54,5 +54,5 @@ Organizarea fișierelor pentru o navigare facilă:
 </p>
 
 <p align="center">
-  [cite_start]<i>Realizat de Mădărășan Ioan-Alexandru [cite: 9]</i>
+  <i>Realizat de Mădărășan Ioan-Alexandru </i>
 </p>
