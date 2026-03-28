@@ -1,0 +1,4 @@
+Circuit: * source PROIECTCAD2
+
+Fatal Error: Unknown subcircuit called in:
+   x_u1 n00142 0 vcc -vcc n00159 lm741
