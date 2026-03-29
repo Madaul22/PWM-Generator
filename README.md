@@ -1,9 +1,8 @@
-<h1 align="center">⚡ Generator de Semnal PWM</h1>
-<h3 align="center">Proiect Disciplina CAD - ETTI UTCN</h3>
+<h1 align="center"> Generator de Semnal PWM</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Tools-OrCAD%20%7C%20PSpice-blue?style=for-the-badge" alt="Tools">
+  <img src="https://img.shields.io/badge/Unelte-OrCAD%20%7C%20PSpice-blue?style=for-the-badge" alt="Tools">
 </p>
 
 ---
