@@ -7,34 +7,27 @@
 
 ---
 
-### 📝 Descriere Proiect
-Proiectul constă în realizarea unui generator PWM cu parametri controlabili, utilizând amplificatorul operațional **TL082**.Acesta a fost ales pentru Slew Rate-ul ridicat de $8V/\mu s$, asigurând comutații rapide.
-
-- 🎯 **Frecvență:** $17kHz$ 
-- 🔄 **Factor de umplere:** Variabil între $20\%$ și $60\%$ 
-- 📈 **Amplitudine:** Reglabilă între $2V$ și $8V$ 
-- ⚡ **Alimentare:** $\pm10V$ 
-
----
-
-### 📂 Structură Repository
-Organizarea fișierelor pentru o navigare facilă:
-
-- 📁 **`proiectCad2-PSpiceFiles/`** - Profile de simulare și analize.
-- 📁 **`proiectcad2_outputs/`** - Rezultate și forme de undă.
-- 📄 **`GeneratorPWM_Madarasan.pdf`** - Documentația completă și calculele.
-- 📄 **`PROIECTCAD2.DSN`** - Schema electrică (OrCAD Capture).
-
----
-
-### 🛠️ Tehnologii și Unelte utilizate:
-<p align="left">
-  <img src="https://img.shields.io/badge/OrCAD_PSpice-003594?style=for-the-badge&logo=cadence&logoColor=white" alt="OrCAD" />
- 
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  </a>
+<h2>Descriere Proiect</h2>
+<p>
+Proiectul constă în realizarea unui generator PWM cu parametri controlabili, utilizând amplificatorul operațional <b>TL082</b>.Acesta a fost ales pentru Slew Rate-ul ridicat de $8V/\mu s$, asigurând comutații rapide.
 </p>
+<p>
+  Specificatii:
+</p>
+
+<ul>
+  <li>Frecvență: $17kHz </li>
+  <li>Factor de umplere: Variabil între 20\% și 60\%</li>
+  <li>Amplitudine: Reglabilă între 2Vși 8V</li>
+  <li>Alimentare: $\pm10V$ </li>
+</ul>
+
+---
+
+<h2>Tehnologii și Unelte utilizate:</h2>
+<ul>
+  <li></li>
+</ul>
 
 ---
 
