@@ -16,8 +16,8 @@ Proiectul constă în realizarea unui generator PWM cu parametri controlabili, u
 </p>
 
 <ul>
-  <li>Frecvență: $17kHz </li>
-  <li>Factor de umplere: Variabil între 20\% și 60\%</li>
+  <li>Frecvență: 17kHz </li>
+  <li>Factor de umplere: Variabil între 20% și 60%</li>
   <li>Amplitudine: Reglabilă între 2Vși 8V</li>
   <li>Alimentare: $\pm10V$ </li>
 </ul>
@@ -26,23 +26,30 @@ Proiectul constă în realizarea unui generator PWM cu parametri controlabili, u
 
 <h2>Tehnologii și Unelte utilizate:</h2>
 <ul>
-  <li></li>
+  <li>
+    <a href="https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html" target="_blank" rel="noreferrer">
+           LTspice
+        </a>
+  </li>
 </ul>
 
 ---
 
-### 📊 Analize incluse
-În cadrul proiectului au fost rulate următoarele simulări pentru validare:
-- **Analiză în Timp (Transient)** pentru vizualizarea semnalelor.
-- **Analiză Parametrică** pentru verificarea domeniilor de reglaj.
-- **Analiză Monte-Carlo** pentru testarea stabilității cu toleranțe de $5\%$.
+<h2>Profile de analiza</h2>
+<p>
+  În cadrul proiectului au fost rulate următoarele simulări pentru validare:
+</p>
+<ul>
+  <li><b>Analiză în Timp</b> (Transient)pentru vizualizarea semnalelor.</li>
+  <li><b>Analiză Parametrică</b> pentru verificarea domeniilor de reglaj.</li>
+  <li><b>Analiză Monte-Carlo</b> pentru testarea stabilității cu toleranțe de 5%.</li>
+</ul>
+
+
+
+
 
 ---
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="mailto:alexhdplusro@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-</p>
 
 <p align="center">
   <i>Realizat de Mădărășan Ioan-Alexandru </i>
