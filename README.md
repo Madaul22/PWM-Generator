@@ -24,17 +24,6 @@ Proiectul constă în realizarea unui generator PWM cu parametri controlabili, u
 
 ---
 
-<h2>Tehnologii și Unelte utilizate:</h2>
-<ul>
-  <li>
-    <a href="https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html" target="_blank" rel="noreferrer">
-           LTspice
-        </a>
-  </li>
-</ul>
-
----
-
 <h2>Profile de analiza</h2>
 <p>
   În cadrul proiectului au fost rulate următoarele simulări pentru validare:
@@ -45,9 +34,16 @@ Proiectul constă în realizarea unui generator PWM cu parametri controlabili, u
   <li><b>Analiză Monte-Carlo</b> pentru testarea stabilității cu toleranțe de 5%.</li>
 </ul>
 
+---
 
-
-
+<h2>Tehnologii și Unelte utilizate:</h2>
+<ul>
+  <li>
+    <a href="https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html" target="_blank" rel="noreferrer">
+           LTspice
+        </a>
+  </li>
+</ul>
 
 ---
 
